@@ -1,0 +1,30 @@
+body {
+    background-color: #b9cbe8;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #2c2c54;
+}
+
+#main-title {
+    text-align: center;
+    border: 3px solid #2c2c54;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.sale-list {
+    color: #4a148c;
+}
+
+a:hover {
+    color: #e91e63;
+}
+
