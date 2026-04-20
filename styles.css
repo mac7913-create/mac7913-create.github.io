@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+header {
+    background: thistle;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    margin: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background: lightblue;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}

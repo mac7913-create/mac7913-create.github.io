@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background: linear-gradient(to bottom right, white, #a8c0e7);
+}
+
+h1, h2 {
+    text-align: center;
+    color:#444;
+    margin-top: 30px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px;
+}
+
+.album {
+    background: white;
+    padding: 20px;
+    width: 190px;
+    height:275px;
+    text-align:center;
+    box-shadow: 0 5px 10px;
+}
+
+.album:hover {
+    transform: translateY(15px) scale(1.25);
+    box-shadow: 0 10px 20px;
+}
+
+.album img {
+    width: 180px;
+    border-radius: 8px;
+}
+
+table {
+    margin: auto;
+    width: 75%;
+    color: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.extra {
+    opacity: 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.album:hover .extra {
+    opacity: 1;
+}
+
+.float-img {
+    float: right;
+    width: 280px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.relative-box {
+    position: relative;
+    width: 180px;
+    height: 100px;
+    line-height: 100px;
+    background-color: lightgrey;
+    margin: 30px auto;
+    font-weight: bold;
+    padding:10px;
+}
+
+.discount-box {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background-color: gold;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    color: white;
+    background-color: #222;
+    text-align: center;
+}
+
+.discount{
+    position:absolute;
+    left:500px;
+}
